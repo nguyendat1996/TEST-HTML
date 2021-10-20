@@ -4,34 +4,43 @@
 }
 html{
     box-sizing: border-box;
+  
 }
+#wrap{
+    width: 1777px;
+    height: 100%;
+}
+
 
 .warp-content{
     background-image: url(../image/Rectangle\ 9.png);
     background-repeat: no-repeat;
-    width: 100%;
-    height:1149px;
-    z-index: 4;
+    background-size: cover;
+    Width :100%;
+    Height :930px;
+
+    
 }
-.header-menu-content{
-    display:flex;
-}
-.header-menu-content{
-    padding:40px 0;
-}
+
 .header-menu-content a{
-    color: #fff;
+    color: #ffffffc7;
     text-decoration: none;
     padding: 0 10px;
+    font-weight: 300;
 
 }
+.header-menu-content a:hover{
+    color: #FFF;
+}
 .header-menu-content{
-    position: static;
     height: 156px;
-    padding:40px 322px;
+    padding:40px 0;
     top: 1px;
     text-align: center;
     justify-content: space-around;
+    align-items: center;
+    display:flex;
+    margin: 0 auto;
 }
 
 .header-menu-item{
@@ -40,14 +49,27 @@ html{
 }
 .header-menu-2{
     display: flex;
+    align-items: center;
 }
 .header-menu-logo{
-    color: #333;
+    padding:10px;
+}
+.header-menu-logo img{
+  
     padding-left: 10px;
 }
+
+.delationshop img:hover{
+    
+    background-color: #333;
+}
+
 .header-menu-container-text{
+    width: 1440px;
+    height: 992px;
     text-align: center;
-    justify-content: center;
+    margin: 0 auto;
+    padding-left: 100px;
     
 }
 .header-text{
@@ -65,7 +87,11 @@ html{
     font-size:3rem;
 }
 .header-text p {
-    font-size:1.5rem;
+    font-size:1.3rem;
+    opacity: 0.7;
+}
+.header-menu-container-button{
+    margin-top:30%;
 }
 .button-1{
     background-color: #2091F9;
@@ -76,16 +102,21 @@ html{
     height:52px;
     border:1px solid #fff;
 }
+.button-1:hover{
+    background-color: #374450;
+    border:1px solid #3333;
+}
 /* content */
+
 #content{
-    margin: 40px auto;
-    width: 1243.3px;
-    height: 472px;  
+    margin: 100px auto;
+    width: 100%;
+    height:800px;
     display:flex;
     align-items: center;
     justify-content: center;
 }
-.content-item{
+.content-item-1{
     margin-right:  100px;
     
 }
@@ -100,6 +131,10 @@ html{
     font-style: normal;
     font-weight: normal;
 }
+.button-2:hover{
+    background-color: #374450;
+    border:1px solid #3333;
+}
 .button-2{
     background-color: #2091F9;
     border-radius: 35px;    
@@ -109,4 +144,86 @@ html{
     width:236px;
     height:52px;
     border:1px solid #fff;
+}
+#container-5,
+#container-4,
+#container-3,
+#container-2{
+    width: 100%;
+    height:700px;
+}
+.content-item-2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+.content-container-left img{
+    width:677px;
+    height:514px;
+
+}
+.content-container-right{
+    margin-left: 150px;
+}
+.content-container-right h1{
+    padding: 23px 0;
+}
+.content-container-right span{
+    opacity: 0.4;
+}
+.input{
+    margin-top: 90px;
+}
+.Email{
+    border-radius: 35px;    
+    width:200px;
+    height:52px;
+    border:1px solid #333;
+    background-color: #eee;
+    padding-left:15px;
+}
+
+#container-3{
+    text-align:center;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+.container-3-img{
+    margin-bottom: 70px;
+}
+.container-3-img img {
+    width:60%; 
+    height: 60%;
+    
+}
+.container-item-3 h1{
+    font-weight: 400;
+}
+.container-item-3 p{
+    margin:44px 0;
+    opacity: 0.4;
+}
+.container-item-4{
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 9%;
+}
+.icon{
+    display: inline-flex;
+}
+.IBM,
+.icon,
+.container-item-4 h1,
+.container-item-4 p,
+.container-item-4 button {
+    margin-top:70px;
+}
+#container-5{
+    text-align:center;
+    background-color: #1E1E1E;
+}
+.container-about-5{
+    display: flex;
+    margin: 0 auto;
 }
